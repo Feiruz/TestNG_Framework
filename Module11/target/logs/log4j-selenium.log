@@ -1,0 +1,835 @@
+2019-01-19 12:01:30 INFO  Base:22 - Test is running in Demo mode ON...
+2019-01-19 12:01:33 INFO  GlobalSeleniumLibrary:95 - Chrome browser is starting...
+2019-01-19 12:07:03 INFO  Base:22 - Test is running in Demo mode ON...
+2019-01-19 12:07:06 INFO  GlobalSeleniumLibrary:95 - Chrome browser is starting...
+2019-01-19 12:07:16 INFO  GlobalSeleniumLibrary:392 - Screenshot Captured: target/screenshots/testing_Scroll_Vertically2019_01_19_12_07_16_157.png
+2019-01-19 12:09:13 INFO  Base:22 - Test is running in Demo mode ON...
+2019-01-19 12:09:17 INFO  GlobalSeleniumLibrary:95 - Chrome browser is starting...
+2019-01-19 12:09:27 INFO  GlobalSeleniumLibrary:392 - Screenshot Captured: target/screenshots/testing_Scroll_Vertically2019_01_19_12_09_26_485.png
+2019-01-19 12:11:26 INFO  Base:22 - Test is running in Demo mode ON...
+2019-01-19 12:11:30 INFO  GlobalSeleniumLibrary:95 - Chrome browser is starting...
+2019-01-19 12:11:40 INFO  GlobalSeleniumLibrary:392 - Screenshot Captured: target/screenshots/testing_Scroll_Vertically2019_01_19_12_11_39_328.png
+2019-01-19 12:13:41 INFO  Base:22 - Test is running in Demo mode ON...
+2019-01-19 12:13:41 ERROR GlobalSeleniumLibrary:99 - Error: 
+java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:847)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:124)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:339)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at com.library.GlobalSeleniumLibrary.startChromeBrowser(GlobalSeleniumLibrary.java:94)
+	at com.library.Base.beforeEachTestStart(Base.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+2019-01-19 14:25:07 INFO  JavaPropertiesManager:66 - property value is: Chrome
+2019-01-19 14:51:23 INFO  Base:27 - Test is running in Demo mode ON...
+2019-01-19 14:51:27 INFO  GlobalSeleniumLibrary:95 - Chrome browser is starting...
+2019-01-19 14:51:37 INFO  GlobalSeleniumLibrary:392 - Screenshot Captured: target/screenshots/testing_Scroll_Vertically2019_01_19_14_51_36_605.png
+2019-01-19 14:52:31 INFO  Base:27 - Test is running in Demo mode ON...
+2019-01-19 14:52:31 INFO  GlobalSeleniumLibrary:418 - Starting IE browser, but not implemented yet !!! Sorry.
+2019-01-19 14:52:31 ERROR TestPractice:33 - Error: 
+java.lang.NullPointerException
+	at com.Week9.tests.TestPractice.testing_Scroll_Vertically(TestPractice.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+2019-01-19 14:52:31 ERROR GlobalSeleniumLibrary:389 - Error: 
+java.lang.NullPointerException
+	at com.library.GlobalSeleniumLibrary.captureScreenshot(GlobalSeleniumLibrary.java:386)
+	at com.library.Base.afterEachTestEnd(Base.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:723)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+2019-01-19 14:53:25 INFO  Base:27 - Test is running in Demo mode ON...
+2019-01-19 14:53:25 INFO  GlobalSeleniumLibrary:422 - Starting Firefox browser, but not implemented yet !!! Sorry.
+2019-01-19 14:53:25 ERROR TestPractice:33 - Error: 
+java.lang.NullPointerException
+	at com.Week9.tests.TestPractice.testing_Scroll_Vertically(TestPractice.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+2019-01-19 14:53:25 ERROR GlobalSeleniumLibrary:389 - Error: 
+java.lang.NullPointerException
+	at com.library.GlobalSeleniumLibrary.captureScreenshot(GlobalSeleniumLibrary.java:386)
+	at com.library.Base.afterEachTestEnd(Base.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:723)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+2019-01-19 14:54:15 INFO  Base:27 - Test is running in Demo mode ON...
+2019-01-19 14:54:15 INFO  GlobalSeleniumLibrary:425 - Ops, Sorry, we don't support the browser: [Safari], please contact Automation Team.
+2019-01-19 14:54:15 ERROR TestPractice:33 - Error: 
+java.lang.NullPointerException
+	at com.Week9.tests.TestPractice.testing_Scroll_Vertically(TestPractice.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+2019-01-19 14:54:15 ERROR GlobalSeleniumLibrary:389 - Error: 
+java.lang.NullPointerException
+	at com.library.GlobalSeleniumLibrary.captureScreenshot(GlobalSeleniumLibrary.java:386)
+	at com.library.Base.afterEachTestEnd(Base.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:723)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+2019-01-19 15:20:27 INFO  Base:32 - Test is running in Demo mode OFF...
+2019-01-19 15:20:27 INFO  GlobalSeleniumLibrary:425 - Ops, Sorry, we don't support the browser: [Safari], please contact Automation Team.
+2019-01-19 15:20:27 ERROR GlobalSeleniumLibrary:389 - Error: 
+java.lang.NullPointerException
+	at com.library.GlobalSeleniumLibrary.captureScreenshot(GlobalSeleniumLibrary.java:386)
+	at com.library.Base.afterEachTestEnd(Base.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:723)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+2019-01-19 15:20:49 INFO  Base:32 - Test is running in Demo mode OFF...
+2019-01-19 15:20:52 INFO  GlobalSeleniumLibrary:95 - Chrome browser is starting...
+2019-01-19 15:21:41 INFO  Base:30 - Test is running in Demo mode ON...
+2019-01-19 15:21:45 INFO  GlobalSeleniumLibrary:95 - Chrome browser is starting...
+2019-01-19 15:25:47 INFO  Base:30 - Test is running in Demo mode ON...
+2019-01-19 15:25:47 ERROR GlobalSeleniumLibrary:439 - Error: 
+java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.ie.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/InternetExplorerDriver. The latest version can be downloaded from http://selenium-release.storage.googleapis.com/index.html
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:847)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:124)
+	at org.openqa.selenium.ie.InternetExplorerDriverService.access$000(InternetExplorerDriverService.java:32)
+	at org.openqa.selenium.ie.InternetExplorerDriverService$Builder.findDefaultExecutable(InternetExplorerDriverService.java:167)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:339)
+	at org.openqa.selenium.ie.InternetExplorerDriver.setupService(InternetExplorerDriver.java:291)
+	at org.openqa.selenium.ie.InternetExplorerDriver.<init>(InternetExplorerDriver.java:213)
+	at org.openqa.selenium.ie.InternetExplorerDriver.<init>(InternetExplorerDriver.java:152)
+	at com.library.GlobalSeleniumLibrary.startIEBrowser(GlobalSeleniumLibrary.java:434)
+	at com.library.GlobalSeleniumLibrary.startLocalBrowser(GlobalSeleniumLibrary.java:418)
+	at com.library.Base.beforeEachTestStart(Base.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+2019-01-19 15:32:04 INFO  Base:30 - Test is running in Demo mode ON...
+2019-01-19 15:32:06 ERROR GlobalSeleniumLibrary:439 - Error: 
+org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. Protected Mode settings are not the same for all zones. Enable Protected Mode must be set to the same value (enabled or disabled) for all zones.
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'MUSABAYTECHCORP', ip: '192.168.1.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: driver.version: InternetExplorerDriver
+remote stacktrace: 
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:209)
+	at org.openqa.selenium.ie.InternetExplorerDriver.run(InternetExplorerDriver.java:223)
+	at org.openqa.selenium.ie.InternetExplorerDriver.<init>(InternetExplorerDriver.java:215)
+	at org.openqa.selenium.ie.InternetExplorerDriver.<init>(InternetExplorerDriver.java:152)
+	at com.library.GlobalSeleniumLibrary.startIEBrowser(GlobalSeleniumLibrary.java:434)
+	at com.library.GlobalSeleniumLibrary.startLocalBrowser(GlobalSeleniumLibrary.java:418)
+	at com.library.Base.beforeEachTestStart(Base.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+2019-01-19 15:35:56 INFO  Base:30 - Test is running in Demo mode ON...
+2019-01-19 15:35:59 INFO  GlobalSeleniumLibrary:435 - IE browser is starting...
+2019-01-19 15:35:59 INFO  GlobalSeleniumLibrary:419 - Starting IE browser, but not implemented yet !!! Sorry.
+2019-01-19 15:47:55 INFO  Base:30 - Test is running in Demo mode ON...
+2019-01-19 15:48:08 INFO  GlobalSeleniumLibrary:439 - IE browser is starting...
+2019-01-19 15:48:59 INFO  Base:30 - Test is running in Demo mode ON...
+2019-01-19 15:49:12 INFO  GlobalSeleniumLibrary:439 - IE browser is starting...
+2019-01-19 15:49:42 ERROR GlobalSeleniumLibrary:391 - Error: 
+org.openqa.selenium.NoSuchWindowException: Unable to get browser
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'MUSABAYTECHCORP', ip: '192.168.1.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: true, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: true, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:38647/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 99c9ecd4-c50e-4546-aeca-451e96c4ac52
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.ie.InternetExplorerDriver.getScreenshotAs(InternetExplorerDriver.java:235)
+	at com.library.GlobalSeleniumLibrary.captureScreenshot(GlobalSeleniumLibrary.java:388)
+	at com.library.Base.afterEachTestEnd(Base.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:723)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+2019-01-19 15:51:23 INFO  Base:30 - Test is running in Demo mode ON...
+2019-01-19 15:51:36 ERROR GlobalSeleniumLibrary:443 - Error: 
+org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. Browser zoom level was set to 150%. It should be set to 100%
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'MUSABAYTECHCORP', ip: '192.168.1.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: driver.version: InternetExplorerDriver
+remote stacktrace: 
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:209)
+	at org.openqa.selenium.ie.InternetExplorerDriver.run(InternetExplorerDriver.java:223)
+	at org.openqa.selenium.ie.InternetExplorerDriver.<init>(InternetExplorerDriver.java:215)
+	at org.openqa.selenium.ie.InternetExplorerDriver.<init>(InternetExplorerDriver.java:160)
+	at com.library.GlobalSeleniumLibrary.startIEBrowser(GlobalSeleniumLibrary.java:438)
+	at com.library.GlobalSeleniumLibrary.startLocalBrowser(GlobalSeleniumLibrary.java:419)
+	at com.library.Base.beforeEachTestStart(Base.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+2019-01-26 10:20:23 INFO  Base:30 - Test is running in Demo mode ON...
+2019-01-26 10:20:39 INFO  GlobalSeleniumLibrary:445 - IE browser is starting...
+2019-01-26 10:20:51 ERROR Base:59 - Error: 
+org.openqa.selenium.UnhandledAlertException: Modal dialog present with text: Hello! How are you?: Hello! How are you?
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'MUSABAYTECHCORP', ip: '192.168.1.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: true, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: true, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:22176/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 7b7b1609-fd95-4ea7-8d7b-4d13d3050b4c
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:435)
+	at com.library.Base.afterEachTestEnd(Base.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:723)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+2019-01-26 10:38:36 INFO  Base:30 - Test is running in Demo mode ON...
+2019-01-26 10:38:50 INFO  GlobalSeleniumLibrary:445 - IE browser is starting...
+2019-01-26 10:38:56 ERROR Base:59 - Error: 
+org.openqa.selenium.UnhandledAlertException: Modal dialog present with text: Hello! How are you?: Hello! How are you?
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'MUSABAYTECHCORP', ip: '192.168.1.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: true, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: true, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:4743/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: ab414115-0fcb-4b60-b1d6-54b445350999
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:435)
+	at com.library.Base.afterEachTestEnd(Base.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:723)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+2019-01-26 10:40:54 INFO  Base:30 - Test is running in Demo mode ON...
+2019-01-26 10:41:09 INFO  GlobalSeleniumLibrary:445 - IE browser is starting...
+2019-01-26 10:41:19 INFO  AlertTests:32 - Alert detected: {Hello! How are you?}
+2019-01-26 10:41:19 INFO  AlertTests:18 - result text: true
+2019-01-26 10:41:22 ERROR Base:59 - Error: 
+org.openqa.selenium.UnhandledAlertException: Modal dialog present with text: Hello! How are you?: Hello! How are you?
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'MUSABAYTECHCORP', ip: '192.168.1.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: true, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: true, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:41132/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 684ca5fe-fb1f-46c5-a241-4b844f0d5c85
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:435)
+	at com.library.Base.afterEachTestEnd(Base.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:723)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+2019-01-26 10:50:02 INFO  Base:30 - Test is running in Demo mode ON...
+2019-01-26 10:50:16 INFO  GlobalSeleniumLibrary:445 - IE browser is starting...
+2019-01-26 10:50:19 INFO  AlertTests:40 - Alert detected: {Hello! How are you?}
+2019-01-26 10:50:51 INFO  Base:30 - Test is running in Demo mode ON...
+2019-01-26 10:51:06 INFO  GlobalSeleniumLibrary:445 - IE browser is starting...
+2019-01-26 10:51:08 INFO  AlertTests:37 - Alert detected: {Hello! How are you?}
+2019-01-26 11:30:17 INFO  Base:30 - Test is running in Demo mode ON...
+2019-01-26 11:31:22 INFO  Base:30 - Test is running in Demo mode ON...
+2019-01-26 11:31:36 INFO  GlobalSeleniumLibrary:446 - IE browser is starting...
+2019-01-26 11:31:39 INFO  WindowHandleTests:19 - browsers: [870c27a8-cc9b-410a-81b9-d1d7efe7b504]
+2019-01-26 11:31:40 INFO  WindowHandleTests:25 - browsers: [870c27a8-cc9b-410a-81b9-d1d7efe7b504, 6392c2d7-bca8-4836-940c-3b908d098a24]
+2019-01-26 11:50:57 INFO  Base:30 - Test is running in Demo mode ON...
+2019-01-26 11:51:02 INFO  GlobalSeleniumLibrary:99 - Chrome browser is starting...
+2019-01-26 11:51:05 INFO  WindowHandleTests:20 - browsers: CDwindow-23E27C91E5BC706E2A42B5A74EE43E9E
+2019-01-26 11:51:09 INFO  WindowHandleTests:27 - browsers: [CDwindow-23E27C91E5BC706E2A42B5A74EE43E9E, CDwindow-23DCD5BC5903578ED197F256A3A4B55D]
+2019-01-26 12:17:25 INFO  Base:30 - Test is running in Demo mode ON...
+2019-01-26 12:17:29 INFO  GlobalSeleniumLibrary:99 - Chrome browser is starting...
+2019-01-26 12:17:39 INFO  WindowHandleTests:55 - browsers: [CDwindow-5749B2A6A42599314049D143177941A0, CDwindow-253CA5F653E37225E75D61C56F8BB6F2, CDwindow-C949D4A80A9FC85C1A00FD406DCD6806]
+2019-01-26 12:19:16 INFO  Base:30 - Test is running in Demo mode ON...
+2019-01-26 12:19:20 INFO  GlobalSeleniumLibrary:99 - Chrome browser is starting...
+2019-01-26 12:19:33 INFO  WindowHandleTests:57 - browsers: [CDwindow-0A3907078F94B4893B7CFCB6F6A33FC0, CDwindow-B105BFD4A1A4C6BC0129172BA6FA9449, CDwindow-2162E24F456947C531A40BCD98121331]
+2019-01-26 12:19:53 INFO  Base:30 - Test is running in Demo mode ON...
+2019-01-26 12:19:56 INFO  GlobalSeleniumLibrary:99 - Chrome browser is starting...
+2019-01-26 12:20:08 INFO  WindowHandleTests:57 - browsers: [CDwindow-A682BA952B248CDE56E7DA2CE607B183, CDwindow-0C497E605DBBE8EEC0792A1D5F99140F, CDwindow-16E3D36A3BA95E2FE9C83DEA54658B24]
+2019-01-26 12:20:37 INFO  Base:30 - Test is running in Demo mode ON...
+2019-01-26 12:20:41 INFO  GlobalSeleniumLibrary:99 - Chrome browser is starting...
+2019-01-26 12:20:53 INFO  WindowHandleTests:57 - browsers: [CDwindow-377190F31012802784752983E1ABB332, CDwindow-3259712B0B7FEEA2C31A911AC155F203, CDwindow-CAEFD96093578DE6C9F2A216187F1841]
+2019-01-26 12:30:52 INFO  Base:30 - Test is running in Demo mode ON...
+2019-01-26 12:30:56 INFO  GlobalSeleniumLibrary:103 - Chrome browser is starting...
+2019-01-26 12:31:24 INFO  Base:30 - Test is running in Demo mode ON...
+2019-01-26 12:31:28 INFO  GlobalSeleniumLibrary:103 - Chrome browser is starting...
+2019-01-26 15:40:07 INFO  EmailManager:75 - Step1> preparing email configuration...
+2019-01-26 15:46:31 INFO  EmailManager:75 - Step1> preparing email configuration...
+2019-01-26 15:47:33 INFO  EmailManager:75 - Step1> preparing email configuration...
+2019-01-26 15:49:28 INFO  EmailManager:77 - Step1> preparing email configuration...
+2019-01-26 15:53:25 INFO  EmailManager:77 - Step1> preparing email configuration...
+2019-01-26 15:53:25 INFO  EmailManager:121 - Step2> Attaching report files & error screenshots ...
+2019-01-26 15:53:25 INFO  EmailManager:126 - Step3> Sending email in progress...
+2019-01-26 15:53:28 INFO  EmailManager:128 - Step4> Sending email complete...
+2019-01-26 15:53:28 INFO  EmailManager:77 - Step1> preparing email configuration...
+2019-01-26 15:53:28 INFO  EmailManager:121 - Step2> Attaching report files & error screenshots ...
+2019-01-26 15:53:28 INFO  EmailManager:126 - Step3> Sending email in progress...
+2019-01-26 15:53:29 INFO  EmailManager:128 - Step4> Sending email complete...
+2019-02-02 10:50:10 ERROR DataBaseManager:47 - Error: java.lang.ClassNotFoundException: oracle.jdbc.OracleDriver
+2019-02-02 10:53:48 ERROR DataBaseManager:47 - Error: java.sql.SQLSyntaxErrorException: ORA-00911: invalid character
+
+2019-02-02 10:56:50 INFO  DataBaseManager:46 - result set value : [ oracle.jdbc.driver.ForwardOnlyResultSet@6f96c77]
+2019-02-02 14:38:25 INFO  Base:30 - Test is running in Demo mode ON...
+2019-02-02 14:41:08 INFO  Base:30 - Test is running in Demo mode ON...
+2019-02-02 14:42:57 INFO  Base:30 - Test is running in Demo mode ON...
+2019-02-02 14:43:02 INFO  GlobalSeleniumLibrary:103 - Chrome browser is starting...
+2019-02-02 14:43:54 INFO  GlobalSeleniumLibrary:103 - Chrome browser is starting...
+2019-02-02 14:44:46 INFO  GlobalSeleniumLibrary:103 - Chrome browser is starting...
+2019-02-02 14:45:40 INFO  GlobalSeleniumLibrary:103 - Chrome browser is starting...
+2019-02-02 14:50:10 INFO  Base:32 - Test is running in Demo mode OFF...
+2019-02-02 14:50:14 INFO  GlobalSeleniumLibrary:103 - Chrome browser is starting...
+2019-02-02 14:50:29 INFO  GlobalSeleniumLibrary:103 - Chrome browser is starting...
+2019-02-02 14:50:45 INFO  GlobalSeleniumLibrary:103 - Chrome browser is starting...
+2019-02-02 14:51:00 INFO  GlobalSeleniumLibrary:103 - Chrome browser is starting...
+2019-02-02 15:11:12 INFO  Base:32 - Test is running in Demo mode OFF...
+2019-02-02 15:11:16 INFO  GlobalSeleniumLibrary:103 - Chrome browser is starting...
+2019-02-02 15:11:32 INFO  GlobalSeleniumLibrary:103 - Chrome browser is starting...
+2019-02-02 15:11:43 INFO  GlobalSeleniumLibrary:400 - Screenshot Captured: target/screenshots/dataDrivenTests2019_02_02_15_11_42_655.png
+2019-02-02 15:11:48 INFO  GlobalSeleniumLibrary:103 - Chrome browser is starting...
+2019-02-02 15:11:58 INFO  GlobalSeleniumLibrary:400 - Screenshot Captured: target/screenshots/dataDrivenTests2019_02_02_15_11_58_521.png
+2019-02-02 15:12:04 INFO  GlobalSeleniumLibrary:103 - Chrome browser is starting...
+2019-02-02 16:15:56 INFO  Base:38 - Session Time: 2019_02_02_16_15_56_292
+2019-02-02 16:15:56 INFO  Base:44 - Test is running in Demo mode OFF...
+2019-02-02 16:16:00 INFO  GlobalSeleniumLibrary:104 - Chrome browser is starting...
+2019-02-02 16:16:06 INFO  GlobalSeleniumLibrary:401 - Screenshot Captured: target/screenshots/testing_Scroll_To_View2019_02_02_16_16_06_219.png
+2019-02-02 16:16:09 INFO  GlobalSeleniumLibrary:510 - Testing file names: .png
+2019-02-02 16:16:09 INFO  GlobalSeleniumLibrary:514 - Testing file timestamp: 
+2019-02-02 18:39:43 INFO  Base:38 - Session Time: 2019_02_02_18_39_43_887
+2019-02-02 18:39:43 INFO  Base:44 - Test is running in Demo mode OFF...
+2019-02-02 18:39:47 INFO  GlobalSeleniumLibrary:104 - Chrome browser is starting...
+2019-02-02 18:39:52 INFO  GlobalSeleniumLibrary:401 - Screenshot Captured: target/screenshots/testing_Scroll_To_View2019_02_02_18_39_51_712.png
+2019-02-02 18:42:00 INFO  Base:38 - Session Time: 2019_02_02_18_42_00_65
+2019-02-02 18:42:00 INFO  Base:44 - Test is running in Demo mode OFF...
+2019-02-02 18:42:04 INFO  GlobalSeleniumLibrary:104 - Chrome browser is starting...
+2019-02-02 18:42:09 INFO  GlobalSeleniumLibrary:401 - Screenshot Captured: target/screenshots/testing_Scroll_To_View2019_02_02_18_42_08_608.png
+2019-02-02 18:42:49 INFO  Base:38 - Session Time: 2019_02_02_18_42_49_853
+2019-02-02 18:42:49 INFO  Base:44 - Test is running in Demo mode OFF...
+2019-02-02 18:42:53 INFO  GlobalSeleniumLibrary:104 - Chrome browser is starting...
+2019-02-02 18:42:58 INFO  GlobalSeleniumLibrary:401 - Screenshot Captured: target/screenshots/testing_Scroll_To_View2019_02_02_18_42_58_186.png
+2019-02-02 18:43:10 INFO  GlobalSeleniumLibrary:510 - Testing file names: dataDrivenTests2019_02_02_15_11_42_655.png
+2019-02-02 18:43:15 INFO  GlobalSeleniumLibrary:514 - Testing file timestamp: 2019_02_02_15_11_42_655
+2019-02-02 18:43:32 INFO  GlobalSeleniumLibrary:510 - Testing file names: dataDrivenTests2019_02_02_15_11_58_521.png
+2019-02-02 18:43:32 INFO  GlobalSeleniumLibrary:514 - Testing file timestamp: 2019_02_02_15_11_58_521
+2019-02-02 18:43:32 INFO  GlobalSeleniumLibrary:510 - Testing file names: photo.png
+2019-02-02 18:43:32 INFO  GlobalSeleniumLibrary:514 - Testing file timestamp: photo
+2019-02-02 18:45:01 INFO  Base:38 - Session Time: 2019_02_02_18_45_01_265
+2019-02-02 18:45:01 INFO  Base:44 - Test is running in Demo mode OFF...
+2019-02-02 18:45:04 INFO  GlobalSeleniumLibrary:104 - Chrome browser is starting...
+2019-02-02 18:45:09 INFO  GlobalSeleniumLibrary:401 - Screenshot Captured: target/screenshots/testing_Scroll_To_View2019_02_02_18_45_09_413.png
+2019-02-02 18:45:14 INFO  GlobalSeleniumLibrary:510 - Testing file names: dataDrivenTests2019_02_02_15_11_42_655.png
+2019-02-02 18:45:14 INFO  GlobalSeleniumLibrary:514 - Testing file timestamp: 2019_02_02_15_11_42_655
+2019-02-02 18:45:14 INFO  GlobalSeleniumLibrary:510 - Testing file names: dataDrivenTests2019_02_02_15_11_58_521.png
+2019-02-02 18:45:14 INFO  GlobalSeleniumLibrary:514 - Testing file timestamp: 2019_02_02_15_11_58_521
+2019-02-02 18:45:14 INFO  GlobalSeleniumLibrary:510 - Testing file names: photo2019_01_12_14_28_53_268.png
+2019-02-02 18:45:14 INFO  GlobalSeleniumLibrary:514 - Testing file timestamp: 2019_01_12_14_28_53_268
+2019-02-02 18:45:14 INFO  GlobalSeleniumLibrary:510 - Testing file names: testing_Scroll_To_View2019_02_02_16_16_06_219.png
+2019-02-02 18:45:14 INFO  GlobalSeleniumLibrary:514 - Testing file timestamp: 2019_02_02_16_16_06_219
+2019-02-02 18:45:14 INFO  GlobalSeleniumLibrary:510 - Testing file names: testing_Scroll_To_View2019_02_02_18_39_51_712.png
+2019-02-02 18:45:14 INFO  GlobalSeleniumLibrary:514 - Testing file timestamp: 2019_02_02_18_39_51_712
+2019-02-02 18:45:14 INFO  GlobalSeleniumLibrary:510 - Testing file names: testing_Scroll_To_View2019_02_02_18_42_08_608.png
+2019-02-02 18:45:14 INFO  GlobalSeleniumLibrary:514 - Testing file timestamp: 2019_02_02_18_42_08_608
+2019-02-02 18:45:14 INFO  GlobalSeleniumLibrary:510 - Testing file names: testing_Scroll_To_View2019_02_02_18_42_58_186.png
+2019-02-02 18:45:14 INFO  GlobalSeleniumLibrary:514 - Testing file timestamp: 2019_02_02_18_42_58_186
+2019-02-02 18:45:14 INFO  GlobalSeleniumLibrary:510 - Testing file names: testing_Scroll_To_View2019_02_02_18_45_09_413.png
+2019-02-02 18:45:14 INFO  GlobalSeleniumLibrary:514 - Testing file timestamp: 2019_02_02_18_45_09_413
+2019-02-02 18:45:14 INFO  GlobalSeleniumLibrary:510 - Testing file names: testing_Scroll_Vertically2019_01_19_12_07_16_157.png
+2019-02-02 18:45:14 INFO  GlobalSeleniumLibrary:514 - Testing file timestamp: 2019_01_19_12_07_16_157
+2019-02-02 18:45:14 INFO  GlobalSeleniumLibrary:510 - Testing file names: testing_Scroll_Vertically2019_01_19_12_09_26_485.png
+2019-02-02 18:45:14 INFO  GlobalSeleniumLibrary:514 - Testing file timestamp: 2019_01_19_12_09_26_485
+2019-02-02 18:45:14 INFO  GlobalSeleniumLibrary:510 - Testing file names: testing_Scroll_Vertically2019_01_19_12_11_39_328.png
+2019-02-02 18:45:14 INFO  GlobalSeleniumLibrary:514 - Testing file timestamp: 2019_01_19_12_11_39_328
+2019-02-02 18:45:14 INFO  GlobalSeleniumLibrary:510 - Testing file names: testing_Scroll_Vertically2019_01_19_14_51_36_605.png
+2019-02-02 18:45:14 INFO  GlobalSeleniumLibrary:514 - Testing file timestamp: 2019_01_19_14_51_36_605
+2019-02-02 18:45:14 INFO  EmailManager:79 - Step1> preparing email configuration...
+2019-02-02 18:45:14 INFO  EmailManager:123 - Step2> Attaching report files & error screenshots ...
+2019-02-02 18:45:14 INFO  EmailManager:128 - Step3> Sending email in progress...
+2019-02-02 18:45:17 INFO  EmailManager:130 - Step4> Sending email complete...
+2019-02-09 12:32:41 INFO  Base:36 - hub url from property: [http://172.31.45.250:4444/wd/hub/]
+2019-02-09 12:32:41 INFO  Base:42 - Session Time: 2019_02_09_12_32_41_174
+2019-02-09 12:32:41 INFO  Base:48 - Test is running in Demo mode OFF...
+2019-02-09 12:32:41 INFO  Base:53 - Test is running in RemoteWebDriver mode ON...
+2019-02-09 12:33:03 ERROR GlobalSeleniumLibrary:451 - Error: 
+org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'MUSABAYTECHCORP', ip: '192.168.1.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:566)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:209)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:132)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:145)
+	at com.library.GlobalSeleniumLibrary.startRemoteBrowser(GlobalSeleniumLibrary.java:448)
+	at com.library.Base.beforeEachTestStart(Base.java:85)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+Caused by: java.net.ConnectException: Failed to connect to /172.31.45.250:4444
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:240)
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:158)
+	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:256)
+	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:134)
+	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:113)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:125)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+	at okhttp3.RealCall.execute(RealCall.java:77)
+	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:101)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:101)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	... 32 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:125)
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:238)
+	... 54 more
+2019-02-09 12:34:32 INFO  Base:36 - hub url from property: [http://172.31.45.250:4444/wd/hub/]
+2019-02-09 12:34:32 INFO  Base:42 - Session Time: 2019_02_09_12_34_32_902
+2019-02-09 12:34:32 INFO  Base:48 - Test is running in Demo mode OFF...
+2019-02-09 12:34:32 INFO  Base:55 - Test is running in Local Webdriver...
+2019-02-09 12:34:41 INFO  GlobalSeleniumLibrary:107 - Chrome browser is starting...
+2019-02-09 12:35:20 INFO  GlobalSeleniumLibrary:404 - Screenshot Captured: target/screenshots/testing_multiple_browsers2019_02_09_12_35_19_482.png

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.Week10.tests.WindowHandleTests">
+        <methods>
+          <include name="beforeEachTestStart"/>
+          <include name="beforeAllTestStart"/>
+          <include name="testing_multiple_browsers"/>
+          <include name="afterEachTestEnd"/>
+          <include name="afterAllTestCompleted"/>
+        </methods>
+      </class> <!-- com.Week10.tests.WindowHandleTests -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
